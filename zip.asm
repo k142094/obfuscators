@@ -1,0 +1,12 @@
+seg1
+	MOV	EAX,0x90
+	PUSH	EAX
+	INC	EAX
+	MOV	EBX,0x80
+	ADD	EBX,EAX
+	MOV	ECX,EDX
+	CALL	func1
+	JMP	[ECX]
+
+JMP	seg1
+JMP	seg1
