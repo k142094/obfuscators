@@ -59,6 +59,8 @@ As demonstrated checking for signatures is a faulty and error prone approach tha
 A dependency engine can be implemented that takes a given instruction/group as input and forms a dependency graph. This component is vital for implmenting any other sort of metamorphism. Other NOP structures can also be created from an in-depth study of an instruction set. The virtual machine described can also be improved upon.
 
 # References
-[[1]] https://github.com/a0rtega/metame
-[[2]] https://www.usenix.org/system/files/conference/woot13/woot13-bangert.pdf
-[[3]] http://stedolan.net/research/mov.pdf
+[1] https://github.com/a0rtega/metame
+
+[2] https://www.usenix.org/system/files/conference/woot13/woot13-bangert.pdf
+
+[3] http://stedolan.net/research/mov.pdf
